@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+  --color: #7de2d1;
+  --color: #ffede1;
+  --color: #131515
+}
+
+body{
+  background-color: black;
+}
+
+header{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 150px;
+  background-image: url('ft.jpg');
+  background-position: center;
+  background-color: black;
+  color:white;
+  border-bottom: 1px solid green;
+  border-radius: 40px;
+}
+
+#Theader{
+  color: green;
+  text-align: left;
+  padding-left: 120px;
+  font-size: 60px;
+}
+
+h1, #h3header{
+  animation-duration: 2.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#h3header{
+  color:green;
+}
+
+
+header div{
+  padding-top: 150px;
+}
+
+#Tconteudo{
+  text-align: left;
+  font-size: 40px;
+  color: green;
+}
+
+section{
+  text-align: center;
+  width: 470px;
+  margin: auto;
+  color:white;
+  border-radius: 20px;
+  padding-top:140px;
+  
+}
+
+.titulo{
+  color: green;
+  margin: 15px;
+}
+
+.border{
+  border-top: 3px solid green;
+  border-bottom: 3px solid green;
+  border-radius: 50px;
+  margin: 30px;
+  box-shadow: 0px .5px green;
+  max-height: 254px;
+}
+
+.border1{
+  border-top: 3px solid green;
+  border-bottom: 3px solid green;
+  border-radius: 50px;
+  margin: 30px;
+  box-shadow: 0px .5px green;
+  height: 178px;
+  padding-top: 20px;
+}
+
+#ajust img{
+padding-top: 25px;
+max-height: 254px;
+}
+
+section div{
+  padding-bottom: 50px;
+}
+
+nav{
+  background-color: red;
+  border-radius: 20px;
+  width: 170px;
+  height: 38px;
+  margin: auto;
+  padding-top: 19px;
+  text-align: left;
+  font-size: 25px;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+}
+
+.instagram-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+  width: 130px;
+  height: 35px;
+}
+
+.instagram-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('instagram-icon.png') center center no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+}
+
+#img{
+  width: 150px;
+  margin: auto;
+  text-align: right;
+}
+
+#img img{
+  max-width: 40px;
+  transform: translateY(-37.6px)
+}
