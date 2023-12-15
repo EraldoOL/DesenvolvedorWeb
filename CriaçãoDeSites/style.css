@@ -161,3 +161,10 @@ button a{
   max-width: 40px;
   transform: translateY(-37.6px)
 }
+
+#complemento{
+  border-top: 1.5px solid green;
+  border-bottom: 1.5px solid green;
+  padding: 30px;
+  border-radius: 20px;
+}
