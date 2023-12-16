@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 950px){
+
 *{
   margin: 0px;
   padding: 0px;
@@ -20,12 +22,17 @@ header{
   text-align: center;
   padding-top: 15px;
   padding-bottom: 150px;
-  background-image: url('ft.jpg');
   background-position: center;
   background-color: black;
   color:white;
   border-bottom: 1px solid green;
   border-radius: 40px;
+}
+
+header{
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: url('ft.jpg');
 }
 
 #Theader{
@@ -43,7 +50,7 @@ h1, #h3header{
 @keyframes slidein {
   from {
     margin-left: 100%;
-    width: 300%;
+    width: 30%;
   }
 
   to {
@@ -167,4 +174,21 @@ button a{
   border-bottom: 1.5px solid green;
   padding: 30px;
   border-radius: 20px;
+}
+
+.ani{
+  opacity: 0;
+  filter: blur(15px);
+  transition: all 2.5s;
+  transform: translateX(-100%);
+  min-width: 100%vw;
+}
+
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transition: all 2.5s;
+  transform: translateX(0);
+}
+
 }
