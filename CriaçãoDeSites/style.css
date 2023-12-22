@@ -47,7 +47,7 @@ header h1{
 }
 
 h1, #h3header{
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-name: slidein;
 }
 
@@ -208,7 +208,7 @@ button a{
 .ani{
   opacity: 0;
   filter: blur(15px);
-  transition: all 2s;
+  transition: all 1.5s;
   transform: translateX(-100%);
   min-width: 100%vw;
 }
@@ -216,7 +216,7 @@ button a{
 .show{
   opacity: 1;
   filter: blur(0);
-  transition: all 2s;
+  transition: all 1.5s;
   transform: translateX(0);
 }
 
