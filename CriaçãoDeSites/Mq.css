@@ -2,12 +2,187 @@
 
 @media (min-width: 300px) and (max-width: 950px){
   
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
   body{
   background-color: black;
-  
+  width: 100%vh;
   }
   
   header{
-  color: green;
+  margin-top: 200px;
+  padding-bottom: 10px;
+  background-position: center;
+  border-radius: 10px;
+  border-bottom: .5px solid deeppink;
+  box-shadow: 1px 1px 0px  blueviolet;
   }
+  
+  header h1{
+    padding-top: 10px;
+    font-size: 35px;
+    padding-left: 20px;
+    color: deeppink;
+    position: relative;
+    -webkit-box-reflect: below 0 linear-gradient(transparent, rgba(0,0,0,0.6));
+    
+  }
+  
+  h1, #h3header{
+  animation-duration: 2.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 30%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.ani{
+  opacity: 0;
+  filter: blur(15px);
+  transition: all 2.5s;
+  transform: translateX(-100%);
+  min-width: 100%vw;
+}
+
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transition: all 2.5s;
+  transform: translateX(0);
+}
+  
+  
+  header h3{
+    padding-top: 70px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: deepskyblue
+  }
+  
+  header img{
+    max-width: 250px;
+    transform: translate(140px)
+    
+  }
+
+#Tconteudo{
+  margin-bottom: 100px;
+  padding-right: 20px;
+  color: deeppink;
+}
+  
+  #beneficios{
+    color: white;
+    margin-top: 170px;
+    padding-left: 15px;
+  }
+  
+  #h2bene{
+    color: deeppink;
+    margin-bottom: 15px;
+  }
+  
+  #pbene{
+    color: deepskyblue
+  }
+  
+  
+  section{
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  color:white;
+  border-radius: 20px;
+  padding-top:140px;
+}
+
+.titulo{
+  margin:15px;
+  color: deeppink;
+}
+
+.border{
+  border-top: 3px solid deeppink;
+  border-bottom: 3px solid deeppink;
+  border-radius: 50px;
+  margin: 30px;
+  padding: 10px;
+  box-shadow: 0px .5px deeppink;
+  margin-bottom: 200px;
+}
+
+#complemento{
+  margin-bottom: 100px;
+  padding-right: 20px;
+  color: deeppink;
+}
+
+.border1{
+  border-top: 3px solid deeppink;
+  border-bottom: 3px solid deeppink;
+  border-radius: 50px;
+  margin: 30px;
+  padding: 10px;
+  box-shadow: 0px .5px deeppink;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+}
+
+.instagram-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+  width: 130px;
+  height: 35px;
+}
+
+.instagram-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('instagram-icon.png') center center no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+}
+
+#img{
+  width: 150px;
+  margin: auto;
+  text-align: right;
+}
+
+#img img{
+  max-width: 40px;
+  transform: translateY(-37.6px)
+}
+
+
+
+
 }

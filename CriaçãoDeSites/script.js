@@ -10,7 +10,6 @@ const myObserver = new IntersectionObserver((entries) => {
   }
     
   })
-  
 })
 
 const elements = document.querySelectorAll('.ani')
